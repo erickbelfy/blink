@@ -1,0 +1,7 @@
+.budget{height:0px; width:100%; top:0; overflow:hidden; position:absolute;}
+
+.budget-form{ width:620px; height:450px; left:50%; margin-left:-320px; top:-400px; font: 0.750em/1.5 'armataregular'; position:absolute; background:#fff; z-index:51;}
+.budget-form .contact-msg{ color:#333333; margin:30px 0 30px 40px;}
+.budget-form .form-list{ width: 545px; height:215px; margin-left:40px; padding:0; list-style:none;}
+.form-list .fix-label-agency{ margin-left:15px!important; padding-right:15px!important;}
+.budget .form-feedback{ width:620px; height:40px; padding-top:15px; top:450px; line-height:2.5em; color:#fff; display:none; position:absolute; }

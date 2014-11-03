@@ -1,0 +1,32 @@
+#blink-map{ position:absolute; top:0;}
+.contact{height:0px; width:100%; top:0; overflow:hidden; position:absolute;}
+.contact .contact-title{ margin-top:20px; }
+.contact-form{ width:620px; height:400px; left:50%; margin-left:-320px; top:-400px; font: 0.750em/1.5 'armataregular'; position:absolute; background:#fff; z-index:53;}
+.contact-form .contact-msg{ color:#333333; margin:30px 0 30px 40px;}
+.contact-form .form-list{ width: 545px; height:215px; margin-left:40px; padding:0; list-style:none;}
+.contact .form-feedback{ width:620px; height:40px; padding-top:15px; top:400px; line-height:2.5em; color:#fff; display:none; position:absolute; transition:all 0.2 ease; -webkit-transition:all 0.2 ease; -moz-transition:all 0.2 ease; -o-transition:all 0.2 ease; }
+ .form-feedback.success{ background: rgba(146, 182, 66, 0.9);}
+.form-feedback.fail{ background: rgba(224, 120, 103, 0.9);}
+.form-feedback .msg-text{ height: 25px; margin-left:15px; margin-top:0; margin-bottom:0; display:block; float:left;}
+.form-feedback .alert-feed{ width:32px; height:25px; margin-left:40px;  float:left;  display:block;}
+.form-feedback .alert-feed.success{background:url('sprite-site.png') -325px -865px no-repeat;}
+.form-feedback .alert-feed.fail{background:url('sprite-site.png') -325px -812px no-repeat;}
+.form-list .form-item{ display:block;  margin-top:15px;  border-bottom:1px solid #b2b2b2;}
+.form-list .text-label{ height:30px; margin-left:30px;   padding-right: 16px; border-right:1px solid #b2b2b2; float:left; display:block;}
+.form-list .text-label.fone-label{ margin-left:10px; }
+.form-list .text-label.email-label{margin-left:23px;}
+.form-list .text-label.fix-label{ padding-right:15px; }
+.form-list .text-label.msg-label{height:73px; margin-left:0; padding-right:10px; }
+.form-list .custom-input-text{ width:430px; height:20px; padding-left:15px; border:0; font: 1em/1.5 'armataregular'; color:#999999; outline:none; }
+.form-list .msg-input{width:413px; height:69px; float:left;  padding-left:15px; border:0; font: 1em/1.5 'armataregular'; color:#999999; outline:none; outline:none;}
+.form-list .submit-form{ width:30px; height:73px; border:0; float:left; text-indent:-9999px; background: url('sprite-site.png') -2px -80px no-repeat;}
+.form-list .submit-form:hover { background-position:-2px -155px;}
+
+.blink-address{width:620px; height:120px; padding-top:25px; background:#fff; left:50%; margin-left:-320px; bottom:-120px;   position:absolute; z-index:53;}
+.blink-address .address{ margin:5px 0 15px 0; color:#999999; font: 0.750em/1.5 'armataregular';}
+.blink-address .address strong{ color:#000; font-weight:400px; margin-right:15px;}
+.blink-address .sprites{width:18px; height:22px; margin: 0 20px 0 40px; display:block; float:left;  background: url('sprite-site.png') 0 0 no-repeat;}
+.blink-address .ico-marker{ background-position:-430px -440px;}
+.blink-address .ico-phone{ background-position:-450px -440px; width:20px;}
+.blink-address .ico-mail{ background-position:-471px -440px;}
+

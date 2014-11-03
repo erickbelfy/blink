@@ -1,0 +1,18 @@
+.about{ width:610px; height:0px; left:50%; top:0; margin: 0 0 0 -310px; font:0.750em/2 'armataregular',sans-serif; background:rgba(255, 255, 255, 0.9); color:#333; overflow:hidden;  position:absolute; z-index:52;}
+.about .about-content{ padding:0 30px 0 30px;}
+.about .about-content .about-subtitle{ margin:40px 0 30px 0; font-size:1.6em; font-weight:normal; color:#666;}
+.about .about-content .our-job{ margin-bottom:30px;}
+.about .about-content .our-job .job-text{width: 420px; margin:0; float:left;}
+.about .about-content .job-section{ width:100px; height:120px; margin:0 20px 0 0; float:left; text-indent:-9999px;}
+.about .about-content .job-camera{ background-position:0 -379px;}
+.about .about-content .job-brain{ background-position:-99px -379px;}
+.about .about-content .job-picture{ background-position:-199px -379px;}
+.about .about-content .job-awards{ background-position:-299px -379px;}
+.about .about-content .met{ font-size:1.6em; font-weight:normal; margin-bottom:20px; color:#666; text-align:center;}
+.about .about-content .make-contact{padding-bottom:50px;}
+.about .about-content .make-contact .link-dimensions{width:240px; height:40px; display:block; float:left; text-indent:-9999px; cursor:pointer; text-decoration:none;}
+.about .about-content .make-contact .portfolio-link{ background-position:0 0; }
+.about .about-content .make-contact .portfolio-link:hover {background-position:0 -40px;}
+.about .about-content .make-contact .contact-link{ background-position:-240px 0; }
+.about .about-content .make-contact .contact-link:hover { background-position:-240px -40px; }
+.about .about-content .make-contact .link-separator{ font-size:1.250em; padding:5px 10px 5px 10px; margin:2px 20px 0 20px;  background:#FFF; float:left; display:block;  -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px;}

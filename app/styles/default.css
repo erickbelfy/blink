@@ -1,0 +1,36 @@
+/* ==|== primary styles =====================================================
+   Author: Erick Belfort
+   ========================================================================== */
+body, .container{ background: #202020 url('preloader-bg.png') 0 0 no-repeat; overflow:hidden; width: 100%; height: 100%; position: absolute;}
+.sprite-actions{ background: url('sprite-site.png') 0 0 no-repeat; }
+.preloader-animation{ left:50%; margin:0 0 0 -40px; position:relative;}
+#logo{ margin:-45px 0 0 0; left:-160px; position:absolute; top:50%; z-index:54;}
+
+.menu{ height:210px; margin:-105px 0 0 0; right:-160px; top: 50%; position:absolute; z-index:53; background:url('barra-menu.png') 0 60px repeat-x; }
+.menu .menu-head{background-position:0px -240px; width: 160px; height:70px; top: 50%; margin-top:-45px;  display:block; cursor:pointer; position:absolute; font:1.2em/3.6 'armataregular',sans-serif; text-align:center; }
+.menu .menu-head:hover .menu-head-mask {width:160px;}
+.menu .menu-head-mask {overflow:hidden; width:0px; height:70px; transition: all 200ms; -webkit-transition: all 200ms; -moz-transition: all 200ms; -o-transition: all 200ms; position:absolute;  z-index:1;}
+
+.menu .menu-head-black {width:160px;height:70px; position:absolute; top:0px; background-position:-159px -240px; color:#FFF;}
+.menu .menu-head-white {width:160px;height:70px; position:absolute; top:0px; background-position:0px -240px;}
+
+.menu .menu-body{width:570px;  height:47px; top:50%;  left:50%; margin:-23px 0 0 -245px; display:none; position: absolute; }
+.menu .menu-body li{ display:inline;}
+.menu .menu-body a{font: 1.125em/1.5 'armataregular',sans-serif; color:#CCCCCC; float:left; text-decoration: none; cursor:pointer;}
+.menu .menu-body a:hover { color:#FFF; }
+.menu .menu-body .separator{ margin:5px 15px 0 15px;  width:15px; height: 15px; float:left; display:block;  position:relative;}
+.menu .menu-body .sep-1{background-position:-174px -813px;}
+.menu .menu-body .sep-2{background-position:-174px -841px;}
+.menu .menu-body .sep-3{background-position:-174px -869px;}
+
+.preloader{ width:100%; height:100%;  position:absolute; top:0; z-index:0;}
+.preloader .preloader-wrapper{ width: 400px; left:50%; top:50%;  margin:-207px 0 0 -200px;  position:absolute;}
+.preloader .preloader-logo{ text-align:center; margin-bottom:250px;}
+
+
+.slideshow{width:100%; height:0; top:0; overflow:hidden; position:absolute; z-index:2;}
+.slideshow .slideshow-item{ width:100%; height:100%; position:absolute;}
+
+.home{ width:100%; height:0; position:absolute; top:0;}
+.modal{ position:absolute; top:0; width:100%; height:100%; display:none; background: #202020 url('preloader-bg.png') 0 0 no-repeat; z-index:100000;}
+.modal .preloader-image{width:80px; height:80px; margin:-40px 0 0 -40px; top:50%; left:50%; position:absolute;}
